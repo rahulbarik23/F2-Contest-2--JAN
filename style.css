@@ -1,0 +1,59 @@
+*
+{
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+body
+{
+    background-color: #000;
+    color: #fff;
+}
+
+form .forminputs
+{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.formitems input
+{
+    height: 30px;
+    width: 440px;
+    margin: 11px 12px 16px 0px;
+    border-radius: 4px;
+    color: #fff;
+    padding-left: 15px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    
+}
+
+.formitems input:focus
+{
+    background-color: transparent;
+}
+
+.formbtn input
+{
+    height: 35px;
+    width: 110px;
+}
+
+.message
+{
+    margin-top: 20px;
+}
+
+.message .usermsg
+{
+    color: #fff;
+}
+
+.table
+{
+    border-collapse: collapse;
+}
+.tbody{
+    border-radius: 4px;  
+}
